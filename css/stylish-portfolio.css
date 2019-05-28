@@ -112,6 +112,7 @@ h6 {
   background-image: url("../img/i9-logo.png");
   margin: 0 auto;
   background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .masthead .mb-5 {
@@ -233,20 +234,6 @@ h6 {
   margin-top: 2rem;
 }
 
-.contact {
-  padding: 15rem 0;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.contact h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
-}
-
 .portfolio-item {
   display: block;
   position: relative;
@@ -364,6 +351,36 @@ h6 {
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
+}
+
+.contact {
+  padding: 15rem 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+}
+
+.contact-icon {
+  line-height: 3.5rem;
+  font-size: 2.25rem;
+}
+
+.contact-map {
+  display: block;
+  background-image: url("../img/mapa_i9.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 13rem;
+  padding-bottom: 13rem;
 }
 
 footer.footer {
