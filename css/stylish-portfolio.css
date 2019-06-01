@@ -248,7 +248,6 @@ h6 {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -256,8 +255,17 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
-  margin: auto 0.9rem 0.9rem;
+  position: absolute;
+  up: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color:rgba(0,0,0, 0.4);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -274,8 +282,8 @@ h6 {
 .portfolio-item .bg-image-vinil {
   display: block;
   height: 220px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/vinil/vinil-material-bright.jpeg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/vinil/vinil-material-bright.jpeg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/vinil/vinil-material.jpeg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/vinil/vinil-material.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -284,8 +292,8 @@ h6 {
 .portfolio-item .bg-image-nylon {
   display: block;
   height: 220px;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/nylon/nylon_4-opaco.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/nylon/nylon_4-opaco.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/nylon/nylon_4.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/nylon/nylon_4.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -305,7 +313,7 @@ h6 {
   display: block;
   height: 220px;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/acquamat/acquamat_grafite-2.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/acquamat/acquamat_grafite-2.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/kleen-rib/kleen_rib_detail.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
