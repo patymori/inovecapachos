@@ -332,7 +332,7 @@ h6 {
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
-    margin: 0;
+    margin: 1px;
   }
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
@@ -351,13 +351,13 @@ h6 {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset();
+    clip-path: inset();
   }
   .portfolio-item:hover .caption {
     background-color: rgba(84, 114, 211, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset();
+    clip-path: inset();
   }
 }
 
