@@ -120,6 +120,14 @@ h6 {
   text-shadow: 0 0 1px #bbb;
 }
 
+@media (max-width: 420px) {
+  .masthead .logo {
+    width: 350px;
+    height: 200px;
+    background-size: contain;
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
